@@ -1,39 +1,34 @@
 import React from 'react';
+import '../styles/style.css';
+
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
-          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        >
-          Home
-        </a>
+    <div>
+    <ul className="nav nav-tabs float-md-right">
+      <li>
+      <h1 class="navName">Jonathan Banks</h1>
       </li>
       <li className="nav-item">
         <a
           href="#about"
-          onClick={() => handlePageChange('About')}
+          onClick={() => handlePageChange('AboutMe')}
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
         >
-          About
+          About Me
         </a>
       </li>
       <li className="nav-item">
         <a
-          href="#project"
-          onClick={() => handlePageChange('Project')}
-          // Check to see if the currentPage is `Project`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}
+          href="#portfolio"
+          onClick={() => handlePageChange('Portfolio')}
+          // Check to see if the currentPage is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >
-          Project
+          Portfolio
         </a>
       </li>
       <li className="nav-item">
@@ -46,7 +41,19 @@ function NavTabs({ currentPage, handlePageChange }) {
           Contact
         </a>
       </li>
+      <li className="nav-item">
+        <a
+          href="#resume"
+          onClick={() => handlePageChange('Resume')}
+          // This is a conditional (ternary) operator that checks to see if the current page is "Resume"
+          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+        </a>
+      </li>
     </ul>
+    </div>
   );
 }
 

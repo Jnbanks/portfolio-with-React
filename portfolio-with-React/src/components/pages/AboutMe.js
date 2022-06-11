@@ -1,8 +1,14 @@
 import React from "react";
+import '../../styles/style.css';
+import background from '../../images/UtahBackground.jpg';
+import profilePic from '../../images/ProfPic.JPG';
 
-export default function About() {
+export default function AboutMe() {
   return (
-    <div>
+    <div class="homediv">
+      <img class="profpic"  src={profilePic} alt="Profile Picture"></img>
+      <img class="background" src={background} alt="Utah-landscape"></img>
+      <main class="homemain">
         <p class="Aboutp">
           Hi! <br />
           Enjoy a light history of my professional life... I started working at
@@ -35,13 +41,15 @@ export default function About() {
           camp and continue as a student of software as I embark on this new
           career path.
         </p>
-        <a
+        </main>
+
+        {/* <a
           class="about-a"
           href="https://docs.google.com/document/d/17monuyLkmYIE0LXkNCoTKoaMZb0lcI5Ed78j7IMPODI/edit?usp=sharing"
           target="no_blank"
         >
           Resume
-        </a>
+        </a> */}
     </div>
   );
 }

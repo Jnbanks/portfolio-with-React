@@ -2,6 +2,10 @@
     box-sizing: border-box;
   }
 
+  .navName {
+      padding-right: 20px;
+      padding-left: 20px;
+  }
 
   /* Styling for the home page */
 .homediv {
@@ -88,7 +92,7 @@
     }
 }
 
-/* Project Page Styling */
+/* Portfolio Page Styling */
 
 .card {
     align-items: center;
@@ -107,6 +111,10 @@
 
 .card h3 {
     padding-top: 2%;
+}
+
+.gitLink {
+    margin-top: 3%;
 }
 
 /* About Styling */
