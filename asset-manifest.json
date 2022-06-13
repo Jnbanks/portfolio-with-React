@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio-with-React/static/css/main.b931ebed.css",
+    "main.js": "/portfolio-with-React/static/js/main.ef9a364e.js",
+    "static/media/ProfPic.JPG": "/portfolio-with-React/static/media/ProfPic.dc7a98455c4b96e1ddc1.JPG",
+    "static/media/UtahBackground.jpg": "/portfolio-with-React/static/media/UtahBackground.65729fc7d98865f4373e.jpg",
+    "static/media/restaurant-portfolio-img.webp": "/portfolio-with-React/static/media/restaurant-portfolio-img.3249f24b6fe0205107db.webp",
+    "static/media/passwordImage.webp": "/portfolio-with-React/static/media/passwordImage.305909c1525065a06458.webp",
+    "static/media/Movie-1200-630.jpg": "/portfolio-with-React/static/media/Movie-1200-630.a65a36014ce8999d8805.jpg",
+    "static/media/weatherimg.jpg": "/portfolio-with-React/static/media/weatherimg.6a21fa4de30f1b26f694.jpg",
+    "static/media/quiz.webp": "/portfolio-with-React/static/media/quiz.97c71f1b45f5d1d241b7.webp",
+    "index.html": "/portfolio-with-React/index.html",
+    "main.b931ebed.css.map": "/portfolio-with-React/static/css/main.b931ebed.css.map",
+    "main.ef9a364e.js.map": "/portfolio-with-React/static/js/main.ef9a364e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b931ebed.css",
+    "static/js/main.ef9a364e.js"
+  ]
+}
